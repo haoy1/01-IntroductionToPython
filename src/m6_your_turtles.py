@@ -64,7 +64,7 @@ for i in range (5):
     john.go_to(rg.Point(xa, ya))
 
     john.pen_down()
-    
+
 john.left(90)
 john.pen_up()
 john.go_to(rg.Point(140,100))
