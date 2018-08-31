@@ -39,8 +39,6 @@ john.speed=20
 xa=0
 ya=0
 
-ya=0
-yb=0
 john.left(125)
 for i in range (5):
     for k in range(24):
