@@ -1712,7 +1712,7 @@ class TurtleWindow(object):
         self._screen = turtle.Screen()
         turtle.Turtle._screen = self._screen
 
-    def close_on_mouse_click(self):
+    def close_on_mouse_click(self) -> object:
         message = 'To exit, click anywhere in this window'
         self._screen._canvas.create_text(0, 280, text=message)
 
